@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int main()
+{
+	float h1,h2,h3,h4,h5,h6,h7,h8,h9,h10;
+	float sum,avr;
+	
+    printf(" Enter Height 1 : ");
+    scanf("%f", &h1);
+    printf(" Enter Height 2 : ");
+    scanf("%f", &h2);
+    printf(" Enter Height 3 : ");
+    scanf("%f", &h3);
+    printf(" Enter Height 4 : ");
+    scanf("%f", &h4);
+    printf(" Enter Height 5 : ");
+    scanf("%f", &h5);
+    printf(" Enter Height 6 : ");
+    scanf("%f", &h6);
+    printf(" Enter Height 7 : ");
+    scanf("%f", &h7);
+    printf(" Enter Height 8 : ");
+    scanf("%f", &h8);
+    printf(" Enter Height 9 : ");
+    scanf("%f", &h9);
+    printf(" Enter Height 10 : ");
+    scanf("%f", &h10);
+    
+    sum = h1+h2+h3+h4+h5+h6+h7+h8+h9+h10;
+    avr = sum/10;
+    
+    printf("the average height = %f",avr);
+    
+}
