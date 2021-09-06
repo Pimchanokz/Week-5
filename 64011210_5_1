@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+    float h[10];
+    int i; 
+    float avr, sum = 0;
+    
+    for(i=0; i<10; i++)
+    {
+        printf(" Enter Height %d : ", i+1);
+        scanf("%f", &h[i]);
+    }
+
+	for(i=0; i<10; i++)
+    {
+        sum = sum + h[i];
+    }
+    
+    avr=sum/10;
+	printf("the average height = %f",avr);
+	
+	return 0;
+}
