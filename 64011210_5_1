@@ -11,14 +11,25 @@ int main()
         printf(" Enter Height %d : ", i+1);
         scanf("%f", &h[i]);
     }
-
+    
+	printf(" Height of students is : ");
+	for(i=0; i<10; i++)
+    {
+        printf("%f cm",h[i]);
+        if (i!=9)
+        {
+        	printf(", ");
+		}
+    }
+    
+	printf("\n");
 	for(i=0; i<10; i++)
     {
         sum = sum + h[i];
     }
     
     avr=sum/10;
-	printf("the average height = %f",avr);
+	printf("the average height = %f cm",avr);
 	
 	return 0;
 }
